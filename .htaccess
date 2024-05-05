@@ -10,6 +10,6 @@
   RewriteRule ^ESCEX$ ESCEX.html [NC,L]
   RewriteRule ^vidrios\ G.M$ vidrios\ G.M.html [NC,L]
   RewriteRule ^CTL$ CTL.html [NC,L]
-  RewriteRule ^tambo\ peru$ tambo\ peru.html [NC,L]
+  RewriteRule ^tambo\ peru\ tours$ tambo\ peru\ tours.html [NC,L]
   RewriteRule ^belladent$ belladent.html [NC,L]
 </IfModule>
