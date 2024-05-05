@@ -1,4 +1,3 @@
-
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
@@ -6,5 +5,12 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html [NC]
 
-RewriteRule ^confesiones$ confesiones.html [NC]
+RewriteRule ^jolie-plus$ jolie-plus.html [NC]
+RewriteRule ^joyas-liz-matta$ joyas-liz-matta.html [NC]
+RewriteRule ^escuela-exportadores$ escuela-exportadores.html [NC]
+RewriteRule ^vidrios-guerrero-marchan$ vidrios-guerrero-marchan.html [NC]
+RewriteRule ^clt$ clt.html [NC]
+RewriteRule ^tambo-peru-tours$ tambo-peru-tours.html [NC]
+RewriteRule ^clinica-odontologica-belladent$ clinica-odontologica-belladent.html [NC]
+
 </IfModule>
